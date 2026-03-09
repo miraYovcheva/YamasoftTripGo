@@ -11,8 +11,8 @@
 trips = [
   {
     name: "Grand Canyon National Park",
-    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
-    description: "Vast red rock canyon carved by the Colorado River.",
+    image_url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    short_description: "Vast red rock canyon carved by the Colorado River.",
     long_description: "Stretching 277 miles long and over a mile deep, the
     Grand Canyon reveals nearly two billion years of Earth's history through its
     colorful layers of rock. Visitors can hike, raft, or simply take in the
@@ -22,8 +22,8 @@ trips = [
   },
   {
     name: "Carhenge",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    description: "Stonehenge replica made entirely from vintage cars.",
+    image_url: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    short_description: "Stonehenge replica made entirely from vintage cars.",
     long_description: "Located near Alliance, Nebraska, Carhenge recreates
     the famous English monument using 38 old automobiles painted gray and arranged
     in the same proportions as the original. It’s a quirky celebration of both art
@@ -32,8 +32,8 @@ trips = [
   },
   {
     name: "Joshua Tree National Park",
-    image: "https://images.unsplash.com/photo-1519681393784-d120267933ba",
-    description: "Iconic desert park known for its unique Joshua trees.",
+    image_url: "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+    short_description: "Iconic desert park known for its unique Joshua trees.",
     long_description: "Where the Mojave and Colorado deserts meet, Joshua
     Tree National Park is a land of rugged rock formations and stark desert beauty.
     Named for its spiky, twisted trees, the park offers world-class climbing,
@@ -42,8 +42,8 @@ trips = [
   },
   {
     name: "World’s Largest Ball of Twine",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    description: "A roadside legend in Cawker City, Kansas.",
+    image_url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    short_description: "A roadside legend in Cawker City, Kansas.",
     long_description: "Started by a single resident in 1953, this enormous
     ball of sisal twine has been growing ever since, thanks to contributions from
     locals and travelers alike. It stands as a living monument to small-town pride,
@@ -52,8 +52,8 @@ trips = [
   },
   {
     name: "Mount Rushmore",
-    image: "https://images.unsplash.com/photo-1586974772928-9e4d0efcc9ab",
-    description: "Famous presidential monument carved into granite.",
+    image_url: "https://images.unsplash.com/photo-1586974772928-9e4d0efcc9ab",
+    short_description: "Famous presidential monument carved into granite.",
     long_description: "Sculpted into the Black Hills of South Dakota, Mount
     Rushmore features the faces of Washington, Jefferson, Roosevelt, and Lincoln.
     The monument took 14 years to complete and stands as a tribute to the nation’s
@@ -62,8 +62,8 @@ trips = [
   },
   {
     name: "Salvation Mountain",
-    image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
-    description: "A technicolor art installation in the desert.",
+    image_url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+    short_description: "A technicolor art installation in the desert.",
     long_description: "Created by artist Leonard Knight, Salvation Mountain
     is a massive, hand-built monument proclaiming love and faith through bright
     paint, adobe, and straw. Its kaleidoscope colors and handmade details make it
@@ -72,8 +72,8 @@ trips = [
   },
   {
     name: "Antelope Canyon",
-    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
-    description: "A sandstone slot canyon of swirling colors.",
+    image_url: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
+    short_description: "A sandstone slot canyon of swirling colors.",
     long_description: "Carved by centuries of flash flooding, Antelope
     Canyon in Arizona is a masterpiece of nature’s sculpting. Light beams filter
     through narrow openings, illuminating the orange and purple waves of sandstone,
@@ -82,8 +82,8 @@ trips = [
   },
   {
     name: "Cadillac Ranch",
-    image: "https://images.unsplash.com/photo-1614463161951-c33c6bdb2d58",
-    description: "Ten Cadillacs buried nose-first in the Texas desert.",
+    image_url: "https://images.unsplash.com/photo-1614463161951-c33c6bdb2d58",
+    short_description: "Ten Cadillacs buried nose-first in the Texas desert.",
     long_description: "A public art installation outside Amarillo, Cadillac
     Ranch was created in 1974 by a group called Ant Farm. The half-buried cars span
     the evolution of the Cadillac tailfin, and visitors are encouraged to add their
@@ -92,8 +92,8 @@ trips = [
   },
   {
     name: "Devils Tower",
-    image: "https://images.unsplash.com/photo-1536334720751-0e4a3f2b7a0e",
-    description: "Towering volcanic monolith in Wyoming.",
+    image_url: "https://images.unsplash.com/photo-1536334720751-0e4a3f2b7a0e",
+    short_description: "Towering volcanic monolith in Wyoming.",
     long_description: "Rising dramatically from the plains of Wyoming,
     Devils Tower is a striking natural formation revered by Native American tribes
     and known as the nation’s first national monument. Its fluted columns are a
@@ -101,8 +101,9 @@ trips = [
     rating: 5
   },
   {
-    image: "https://images.unsplash.com/photo-1526498460520-4c246339dccb",
-    description: "Dive into UFO lore and alien encounters.",
+    name: "International UFO Museum",
+    image_url: "https://images.unsplash.com/photo-1526498460520-4c246339dccb",
+    short_description: "Dive into UFO lore and alien encounters.",
     long_description: "The International UFO Museum in Roswell, New Mexico
     explores the mystery of the alleged 1947 UFO crash. Packed with exhibits,
     photos, and first-hand accounts, it’s a pilgrimage site for believers,
@@ -111,8 +112,8 @@ trips = [
   },
   {
     name: "Niagara Falls",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    description: "World-famous waterfalls between the US and Canada.",
+    image_url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    short_description: "World-famous waterfalls between the US and Canada.",
     long_description: "Niagara Falls’ massive cascades send over 3,000 tons
     of water per second tumbling down its cliffs. Visitors can view the spectacle
     from both sides of the border, take a boat into the mist, or marvel at
@@ -121,8 +122,8 @@ trips = [
   },
   {
     name: "Bonneville Salt Flats",
-    image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
-    description: "Utah’s surreal expanse of pure white salt.",
+    image_url: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
+    short_description: "Utah’s surreal expanse of pure white salt.",
     long_description: "A remnant of ancient Lake Bonneville, these vast
     flats stretch for miles and create a mirror-like effect after rain. They serve
     as a natural racetrack for land speed records and a photographer’s dream for
@@ -131,8 +132,8 @@ trips = [
   },
   {
     name: "Crater Lake National Park",
-    image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
-    description: "A deep volcanic lake with brilliant blue water.",
+    image_url: "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+    short_description: "A deep volcanic lake with brilliant blue water.",
     long_description: "Formed nearly 8,000 years ago by the collapse of
     Mount Mazama, Oregon’s Crater Lake is the deepest in the United States. Its
     pristine waters and steep surrounding cliffs make it one of the most
@@ -141,8 +142,8 @@ trips = [
   },
   {
     name: "Mystery Spot",
-    image: "https://images.unsplash.com/photo-1587502537745-84b80b1f3f19",
-    description: "Optical illusion attraction in Santa Cruz.",
+    image_url: "https://images.unsplash.com/photo-1587502537745-84b80b1f3f19",
+    short_description: "Optical illusion attraction in Santa Cruz.",
     long_description: "Since the 1940s, the Mystery Spot has baffled
     visitors with tilted rooms and gravity-defying effects. Whether a trick of
     perspective or something stranger, it remains one of California’s most enduring
@@ -151,8 +152,8 @@ trips = [
   },
   {
     name: "Sequoia National Park",
-    image: "https://images.unsplash.com/photo-1503264116251-35a269479413",
-    description: "Home of the world’s largest trees.",
+    image_url: "https://images.unsplash.com/photo-1503264116251-35a269479413",
+    short_description: "Home of the world’s largest trees.",
     long_description: "California’s Sequoia National Park shelters the
     giant sequoias — ancient trees that can live over 3,000 years and tower more
     than 250 feet high. The General Sherman Tree, the world’s largest by volume,
@@ -161,8 +162,8 @@ trips = [
   },
   {
     name: "South of the Border",
-    image: "https://images.unsplash.com/photo-1596484557299-8fc5d9aa66e9",
-    description: "Neon roadside landmark along I-95.",
+    image_url: "https://images.unsplash.com/photo-1596484557299-8fc5d9aa66e9",
+    short_description: "Neon roadside landmark along I-95.",
     long_description: "Straddling the North Carolina–South Carolina line,
     South of the Border has been luring travelers for decades with its colorful
     billboards, giant sombrero tower, and kitschy charm. It’s equal parts nostalgic
@@ -171,8 +172,8 @@ trips = [
   },
   {
     name: "Bryce Canyon National Park",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-    description: "Maze of crimson spires called hoodoos.",
+    image_url: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    short_description: "Maze of crimson spires called hoodoos.",
     long_description: "Bryce Canyon’s amphitheaters of red and orange rock
     formations glow vividly at sunrise. Its high-elevation trails weave among
     whimsical pillars carved by frost and erosion, offering one of the most surreal
@@ -181,8 +182,8 @@ trips = [
   },
   {
     name: "Route 66 Museum",
-    image: "https://images.unsplash.com/photo-1530789253388-582c481c54b0",
-    description: "Celebrating America’s historic highway.",
+    image_url: "https://images.unsplash.com/photo-1530789253388-582c481c54b0",
+    short_description: "Celebrating America’s historic highway.",
     long_description: "Located in Oklahoma, this museum traces the cultural
     legacy of Route 66 — the ‘Mother Road’ that connected Chicago to Los Angeles.
     Through vintage cars, neon signs, and personal stories, it captures the romance
@@ -191,8 +192,8 @@ trips = [
   },
   {
     name: "Arches National Park",
-    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
-    description: "Landscape filled with over 2,000 natural arches.",
+    image_url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    short_description: "Landscape filled with over 2,000 natural arches.",
     long_description: "Arches National Park, in Utah’s red rock country, is
     a wonderland of delicate sandstone arches, spires, and fins. Sunrise and sunset
     turn the formations fiery red, creating unforgettable views and endless
@@ -201,8 +202,8 @@ trips = [
   },
   {
     name: "The Wave, Arizona",
-    image: "https://images.unsplash.com/photo-1518837695005-2083093ee35b",
-    description: "Famous swirling rock formation near the Utah border.",
+    image_url: "https://images.unsplash.com/photo-1518837695005-2083093ee35b",
+    short_description: "Famous swirling rock formation near the Utah border.",
     long_description: "Hidden within the Paria Canyon–Vermilion Cliffs
     Wilderness, The Wave is a geological masterpiece of undulating sandstone. Its
     surreal patterns and vivid stripes draw photographers from around the world —
