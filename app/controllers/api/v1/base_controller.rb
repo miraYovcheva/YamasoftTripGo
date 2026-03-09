@@ -8,17 +8,17 @@ module Api
 
       rescue_from StandardError do |e|
         Rails.logger.error(e)
-        render json: { errors: ["An unexpected error occurred"] }, status: :internal_server_error
+        render json: { errors: [ "An unexpected error occurred" ] }, status: :internal_server_error
       end
 
       rescue_from ActiveRecord::RecordNotFound do
-        render json: { errors: ['Record not found'] }, status: :not_found
+        render json: { errors: [ "Record not found" ] }, status: :not_found
       end
 
       def response_meta(collection)
-        return {} unless action_name == 'index'
+        return {} unless action_name == "index"
         return {} unless collection.respond_to?(:current_page)
-      
+
         {
           current_page: collection.current_page,
           per_page: collection.limit_value,
@@ -28,13 +28,13 @@ module Api
           prev_page: collection.prev_page
         }
       end
-      
+
       def page_number
-        [(params.dig(:page, :number).presence || params[:page] || 1).to_i, 1].max
+        [ (params.dig(:page, :number).presence || params[:page] || 1).to_i, 1 ].max
       end
-      
+
       def per_page_value
-        [[(params.dig(:page, :size).presence || params[:per_page] || 10).to_i, 1].max, 100].min
+        [ [ (params.dig(:page, :size).presence || params[:per_page] || 10).to_i, 1 ].max, 100 ].min
       end
     end
   end

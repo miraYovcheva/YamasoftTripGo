@@ -3,7 +3,7 @@ module Api
     class TripsController < Api::V1::BaseController
       def index
         trips = Trip.ransack(search_params)
-        trips.sorts = 'name asc' if trips.sorts.empty?
+        trips.sorts = "name asc" if trips.sorts.empty?
 
         @trips = trips.result(distinct: true)
                       .page(page_number)
@@ -11,7 +11,7 @@ module Api
 
         render json: {
           trips: @trips,
-          meta: response_meta(@trips) 
+          meta: response_meta(@trips)
         }, each_serializer: Api::V1::Trips::ListSerializer
       end
 
@@ -22,7 +22,7 @@ module Api
 
       def create
         @trip = Trip.new(trip_params)
-        
+
         if @trip.save
           render json: @trip,
                  status: :created,
