@@ -5,19 +5,19 @@ class Trip < ApplicationRecord
   def self.ransackable_associations(_auth_object = nil)
     []
   end
-    
+
   def self.ransackable_attributes(auth_object = nil)
     %w[name rating created_at]
   end
 
   def self.generate_rating_summary
     trips = Trip.all
-    return { message: 'No trips found' } if trips.empty?
+    return { message: "No trips found" } if trips.empty?
 
     ratings = trips.pluck(:rating)
     ratings = trips.pluck(:rating).compact
     avg = (ratings.sum.to_f / ratings.size).round(2)
-    by_rating = (1..5).to_h { |r| [r, trips.where(rating: r).count] }
+    by_rating = (1..5).to_h { |r| [ r, trips.where(rating: r).count ] }
 
     {
       total_trips: trips.count,
